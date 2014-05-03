@@ -6,14 +6,14 @@
  */
 
 var http = require("http");
-var port = 1337;
+var port = 3000;
 var request = require("request");
 var url = "http://graph.facebook.com/2014NTUIMCAMP/photos?type=uploaded";
 
 http.createServer(function (req, res) {
   res.writeHeader(200, {"Content-Type": "text/html"});
   
-  var data = "<html><head></head><title>2014 IM Camp</title><br><body style = 'background-color: B4EAF4;'>";
+  var data = "<html><head></head><title>2014444444 IM CAMP</title><br><body style = 'background-color: B4EAF4;'>";
   
   data += '<center><h1 style="font-family:Courier New;color:F47320;margin-bottom:0">2014 IM Camp</h1></center>';
 
