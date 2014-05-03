@@ -6,7 +6,7 @@
  */
 
 var http = require("http");
-var port = 3000;
+var port = Number(process.env.PORT || 3000);
 var request = require("request");
 var url = "http://graph.facebook.com/2014NTUIMCAMP/photos?type=uploaded";
 
